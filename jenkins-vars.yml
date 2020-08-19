@@ -1,5 +1,4 @@
 ---
-
 # jenkins variables
 project_name: docker-calibre-web
 external_type: github_stable
@@ -8,7 +7,7 @@ release_tag: latest
 ls_branch: master
 repo_vars:
   - EXT_GIT_BRANCH = 'master'
-  - EXT_USER = 'janeczku'
+  - EXT_USER = 'blitzmann'
   - EXT_REPO = 'calibre-web'
   - BUILD_VERSION_ARG = 'CALIBREWEB_RELEASE'
   - LS_USER = 'linuxserver'
