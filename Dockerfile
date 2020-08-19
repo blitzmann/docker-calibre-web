@@ -32,7 +32,7 @@ RUN \
  fi && \
  curl -o \
  /tmp/calibre-web.tar.gz -L \
-	https://github.com/janeczku/calibre-web/archive/${CALIBREWEB_RELEASE}.tar.gz && \
+	https://github.com/blitzmann/calibre-web/archive/${CALIBREWEB_RELEASE}.tar.gz && \
  mkdir -p \
 	/app/calibre-web && \
  tar xf \
